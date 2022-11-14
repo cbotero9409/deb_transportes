@@ -1,0 +1,270 @@
+none/* 
+    Created on : 21-jun-2021, 8:38:40
+    Author     : Santiago Echeverri
+*/
+.alert_bar{
+    width: 500px;
+}
+
+
+.bg-login{
+    background-image: linear-gradient(rgb(66, 147, 186), rgb(18, 43, 82));
+    min-height: 100vh
+}
+
+.card{
+    border-radius: 20px;
+
+}
+.container{
+    text-align: center;   
+}
+
+.form-group{
+    text-align: left;
+    color: #000;
+}
+
+.form-check{
+    text-align: left;
+}
+
+.mb-7{
+    margin-bottom: 100px !important;
+    margin-top: 30px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.mt-50{
+    margin-top: 50px !important;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    border-top: 1px solid #b8c2cc;  
+}
+
+.btn btn-primary{
+    border: 1px;
+    border-radius: 100px;
+}
+
+.marg_btn{
+    margin-top: 40px;
+    float: inline-end;
+    margin-right: 10px;
+}
+
+.footerIndex{
+    background-image: url('../img/fondoInferior.jpeg'); height: 100px; 
+    width: 100.3%;
+    position: absolute;
+    left: -1px;
+    background-size: 100% 70%;
+    bottom: -1px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    border-radius: 20px;
+}
+
+.custom-file-input ~ .custom-file-label::after {
+    content: "Examinar";
+    background: #0033a0;
+    border: #0033a0 1px solid;
+    border-radius: 5px;
+    color: white;
+}
+
+.alert_bar{
+    width: 500px;   
+}
+
+.profile_user{
+    width: 100px;
+}
+
+
+@media(max-width: 768px){
+
+    .pgtion {
+        border: none;
+        border-bottom: #0033a0 1px solid;
+        border-radius: 5px;
+    }
+
+    label{
+        display: none;
+    }
+    .custom-file-label{
+        border: none;
+        border-bottom: #0033a0 1px solid;;   
+
+    }
+}
+
+/* Style for createOrder.php */
+
+.margin_valid{
+    margin-left: 34%;
+}
+
+.red_status {
+    color: #DD2A2A;
+}
+
+.green_status {
+    color: #228A33;
+}
+
+.yellow_status {
+    color: #C39B25;
+}
+
+.blue_status {
+    color: #2926B1;
+}
+
+.table{
+    text-align: left;
+}
+
+.order_rows{
+    display: inline-block;
+    width: 7%;
+}
+
+.pagination li:hover{
+    cursor: pointer;
+}
+
+.pagination li{
+    background-color: #efefef;
+    padding: 0px 8px;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    border-radius: 3px;
+}
+
+.active_pag{
+    background-color: #0000ff42 !important;
+    font-weight: 600;
+}
+
+
+.table_bar{
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 80px;
+}
+
+#maxRows{
+    padding-right: 4.75rem;
+}
+
+#myInput{
+    margin-bottom: 16px;
+    margin-top: 3px;
+    margin-right: 23px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    width: 237px;
+}
+
+.new_order{
+    float: right;
+    margin-top: -55px;
+    margin-bottom: 17px;
+    
+}
+
+.table_column, .button_right, .btn-excel{
+    float: right;
+}
+
+.table_column_margin{
+    float: right;
+    margin-left: -5%;
+}
+
+.table_column_1{
+    margin-right: 36px;
+}
+
+.table_column_2{
+    margin-right: 73px;
+}
+
+table.table-hover tbody tr:hover {
+    background-color: #dcd5ff;
+}
+
+#eye{
+    color: #639708;
+}
+
+#pencil{
+    color: #092cec;
+}
+
+.first_column{
+    width: 10px;
+}
+
+.margin_vis{
+    margin: 40px 0px 30px;
+    padding: 20px 0px;
+}
+
+.info {
+    border: solid medium;
+    border-radius: 20px;
+    font-family: Mulish;
+    font-size: 25px;
+    text-align: center;
+}
+
+.info_icons {
+    float: right;
+    margin: -24px 10px 0px 0px;
+    width: 30px;
+}
+
+.info_1{
+    border-color: #DD2A2A;
+    background-color: #ff000008;
+}
+
+.info_2{
+    border-color: #228A33;
+    background-color: #228a3308;
+}
+
+.info_3{
+    border-color: #C39B25;
+    background-color: #c39b2512;
+}
+
+.info_4{
+    border-color: #2926B1;
+    background-color: #2926b10f;
+}
+
+.icon_1 {
+    color: #DD2A2A;
+}
+
+.icon_2 {
+    color: #228A33;
+}
+
+.icon_3 {
+    color: #C39B25;
+}
+
+.icon_4 {
+    color: #2926B1;
+}
+
+.input-value {
+    display: none;
+}
