@@ -32,7 +32,7 @@ class userController {
 
         $model = new userClass();
         if ($model->create($user)) {
-            header("Location: /views/users.php?creation=true");
+            header("Location: ../views/users.php?creation=true");
             return "created";
         }
         return "save error";

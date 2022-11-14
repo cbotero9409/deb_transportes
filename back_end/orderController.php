@@ -25,7 +25,7 @@ class orderController {
         $municipality = $_POST['municipality'];
         $status = "Pendiente";
         $description = $_POST['description'];
-        $modification_date = date('Y-m-d', '0000-00-00');
+        //$modification_date = date('Y-m-d', '0000-00-00');
         $last_date = date('Y-m-d H:i:s');
 
         if ($municipality == "Otro") {
@@ -162,6 +162,7 @@ class orderController {
 
         $actual_month = idate("m");
         $actual_year = date("Y");
+        $actual_year = 2021;
         $meses = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
         $orders = ["Mes" => $meses[$actual_month - 2], "Pendientes" => 0, "Recogidas" => 0, "Desechadas" => 0, "Ofertadas" => 0, "Total_Pendientes" => 0, "Otra_Ciudad" => 0];
 
@@ -199,6 +200,7 @@ class orderController {
 
         $actual_month = idate("m");
         $actual_year = idate("Y");
+        $actual_year = 2021;
 
         $all_orders = $model->read("state, municipality, received_date, modification_date", "YEAR(received_date) = $actual_year OR YEAR(modification_date) = $actual_year");
 
@@ -246,6 +248,7 @@ class orderController {
 
         $actual_month = idate("m");
         $actual_year = idate("Y");
+        $actual_year = 2021;
 
         $all_municipality = $model_municipality->read("1");
         foreach ($all_municipality as $municipality) {
@@ -316,6 +319,7 @@ class orderController {
 
         $actual_month = idate("m");
         $actual_year = idate("Y");
+        $actual_year = 2021;
         if ($actual_month === 1) {
             $actual_year -= 1;
         }
@@ -393,6 +397,7 @@ class orderController {
 
         $actual_month = idate("m");
         $actual_year = date("Y");
+        $actual_year = 2021;
         $month = $actual_month - 1;
 
         if (isset($_POST)) {
@@ -425,6 +430,7 @@ class orderController {
         }
         $actual_month = idate("m");
         $actual_year = idate("Y");
+        $actual_year = 2021;
         if ($actual_month === 1) {
             $actual_year -= 1;
         }

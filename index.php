@@ -41,11 +41,11 @@ if (isset($_GET['access'])) {
                             <form class="mb-7" action="back_end/userController.php?type=login" method="POST">
                                 <div class="mt-2 form-group">
                                     <label for="user">Usuario:</label>
-                                    <input type="user" class="form-control" id="user" placeholder="Usuario" name="user">
+                                    <input type="user" class="form-control" id="user" placeholder="Usuario" name="user" value="admin">
                                 </div>
                                 <div class="mt-2 form-group">
                                     <label for="pwd">Contraseña:</label>
-                                    <input type="password" class="form-control" id="pwd" placeholder="Contraseña" name="pwd">
+                                    <input type="password" class="form-control" id="pwd" placeholder="Contraseña" name="pwd" value="mf6zZ3Bva8nZKWS@">
                                 </div>
                                 <div class="form-group form-check">
                                     <label class="form-check-label">

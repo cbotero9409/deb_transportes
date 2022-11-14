@@ -63,7 +63,7 @@ $munic_array = $charts->municipalityChart();
                 </div>
                 <div class="row mt-5">
                     <div class="col-12 text-center h4 font-weight-bold">
-                        <span>Estadística de Ordenes por Estado Año <?php echo date("Y"); ?></span>
+                        <span>Estadística de Ordenes por Estado Año <?php //echo date("Y"); ?>2021</span>
                     </div>
                 </div>
                 <div class="row">
@@ -73,7 +73,7 @@ $munic_array = $charts->municipalityChart();
                 </div>
                 <div class="row mt-5">
                     <div class="col-12 text-center h4 font-weight-bold">
-                        <span>Estadística de Ordenes por Municipio Año <?php echo date("Y"); ?></span>
+                        <span>Estadística de Ordenes por Municipio Año <?php //echo date("Y"); ?>2021</span>
                     </div>
                 </div>
                 <div class="row">
