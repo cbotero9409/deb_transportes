@@ -16,7 +16,7 @@ class dataBaseConection {
     //put your code here
 
     const SERVERNAME = 'localhost';
-    const DATABASE = 'db_transportes';
+    const DATABASE = 'db_tr';
     const USERNAME = 'root';
     const PASSWORD = '';
 
